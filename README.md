@@ -25,6 +25,7 @@ A simple, controlled Bash utility for restoring KVM/QEMU virtual machines from *
 ### Notes & Warnings
 
  **⚠️ Shut off all VMs before running.** Writing to a live disk image will corrupt it. The script checks state and skips running VMs, but verify beforehand.
+ **⚠️ Script assumes the qcow2 disk names are the same as the VMs.**
 
 ---
 
