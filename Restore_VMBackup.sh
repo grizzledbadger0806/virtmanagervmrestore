@@ -24,8 +24,8 @@ fi
 done
 
 ##Paths
-BACKUP="/Path/To/Golden/Images/GOLDEN_${VM}.qcow2"
-DEST="/Path/To/VM/Directory/${VM}.qcow2"
+BACKUP="/home/badgersage/Backups/GoldenImages/GOLDEN_${VM}.qcow2"
+DEST="/mnt/c3cb2f03-f942-4a4f-be35-3668da0189dd/VM/VMFarm/${VM}.qcow2"
 
 echo ""
 echo "🔍 Restore Plan:"
